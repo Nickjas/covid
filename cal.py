@@ -8,3 +8,6 @@ ga=np.array(g)
 mgh=ga/na
 
 print(mgh)
+
+#try to calculate the bmi
+print(ga/na**2)
