@@ -1,13 +1,8 @@
 import numpy as np
-h=[12,32,45,56]
-g=[345,546,257,734]
-
-na=np.array(h)
-ga=np.array(g)
-
-mgh=ga/na
-
-print(mgh)
-
-#try to calculate the bmi
-print(ga/na**2)
+#creation of arrays
+#this are the list of ways in which you can create an array in numpy
+#use arange()
+d=np.arange(40)
+print(d)
+#we can find the dimension of the array by
+print(d.ndim)
