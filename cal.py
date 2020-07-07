@@ -6,3 +6,9 @@ d=np.arange(40)
 print(d)
 #we can find the dimension of the array by
 print(d.ndim)
+#we can also find the size by
+print(d.size)
+
+f=np.arange(20,100,10).reshape(2,4)
+print(f)
+print(f.ndim)
